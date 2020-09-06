@@ -11,7 +11,7 @@ function hours() {
   document.getElementById("hours").innerHTML = getHours;
   document.getElementById("minutes").innerHTML = getMinutes;
   document.getElementById("seconds").innerHTML = getSeconds;
-
+// Added a if statement to add leading 0 when the time is displaying single digits.
   if (getHours < 10) {
     document.getElementById("hours").innerHTML = "0" + getHours;
   }
