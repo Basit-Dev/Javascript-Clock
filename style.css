@@ -1,0 +1,37 @@
+body {
+  text-align: center;
+  background-color: gainsboro;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+h1 {
+  font-size: 40px;
+}
+
+.clock-header {
+  width: 800px;
+}
+
+.header {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+#hours,
+#minutes,
+#seconds {
+  display: inline;
+  background-color: rgb(77, 221, 173);
+  font-size: 120px;
+  border-radius: 10px;
+}
+
+#getDate {
+  font-size: 30px;
+  margin-bottom: 5px;
+  background-color: burlywood;
+}
